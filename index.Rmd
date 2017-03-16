@@ -1,5 +1,5 @@
 ---
-title: "First Products Course Project"
+title: "1844"
 author: "Andy Harless"
 date: "March 15, 2017"
 output: html_document
@@ -15,3 +15,5 @@ m <- addTiles(leaflet())
 m <- addRectangles(m, lat1=54.67, lng1=-100, lat2=54.67, lng2=-140, label="54-40 or fight!", labelOptions=labelOptions(textsize="15px"))
 m
 ```
+
+With apologies to James K. Polk.  This is what you might call "concept media".  Didn't have anything interesting that I wanted to do with Leaflet right now, but I'll keep it in mind.  Though it is kind of interesting to see what parts of Canada might have been part of the United States (zoom and pan) if Polk had actually managed to implement his campaign slogan.  Instead he fought a war with Mexico, probably a net win for US expansionism as compared to getting Vancouver.  But harder to justify geo-ethically if you ask me.  Also, the slavery thing.
